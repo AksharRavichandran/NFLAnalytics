@@ -4,5 +4,3 @@
 __pycache__/
 .nfl_pbp_cache/
 data/raw/
-*.parquet
-*.csv
