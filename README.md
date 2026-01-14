@@ -30,6 +30,10 @@ Script overview
 - `scripts/setup_venv.sh`: Creates a venv and installs requirements.
 - `requirements.txt`: Python dependencies (includes `nfl_data_py`, `pandas`, `pyarrow`, `certifi`).
 
+Modeling
+--------
+- Use the notebook `notebooks/02_ensemble_model.ipynb` to train and validate the ensemble model entirely in-memory (no saved joblib artifact). It will optionally build `data/processed/games_dataset.csv` from raw schedules if missing.
+
 Datasets
 --------
 Presets:
